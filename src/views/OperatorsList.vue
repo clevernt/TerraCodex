@@ -61,7 +61,8 @@ export default {
         CASTER: 'Caster',
         SUPPORT: 'Supporter',
         MEDIC: 'Medic',
-        TANK: 'Defender'
+        TANK: 'Defender',
+        SPECIAL: 'Specialist'
       }
     },
     filteredOperators() {

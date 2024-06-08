@@ -149,7 +149,8 @@ export default {
           CASTER: 'Caster',
           SUPPORT: 'Supporter',
           MEDIC: 'Medic',
-          TANK: 'Defender'
+          TANK: 'Defender',
+          SPECIAL: 'Specialist'
         }
         return professionDisplayNames[professionCode] || professionCode
       }
@@ -265,7 +266,7 @@ h1 {
 /* Operator Image */
 .operator-image {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   border: 5px solid #000000;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
